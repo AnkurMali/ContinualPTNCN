@@ -1,4 +1,4 @@
-# PTNCN-Local-recurrent-and-parallel-predictive-coding
+# Brain-Inspired Modeling with Parallel Temporal Neural Coding Network (P-TNCN): Local Recurrent and Parallel Predictive Coding
 We introduce a locally recurrent predictive coding model, a neuro-mimetic system that was specifically named the <i>Parallel Temporal Neural Coding Network</i> (P-TNCN). Unlike classical recurrent neural networks (RNNs), our proposed model conducts inference over its neuronal dynamics and adapts its synpatic connection strengths in local manner, i.e., it utilizes Hebbian-like synaptic adjustments. As a result, the underlying temporal model does not require computing gradients backward in time (also known as "unfolding" or "unrolling" back through time); thus, the model learns in a more computationally more efficient way than RNNs trained with BPTT and can be used for online learning.
 
 # Requirements
