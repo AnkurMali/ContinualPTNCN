@@ -11,6 +11,7 @@ To run the code, you should only need following basic packages:
 
 # Training the system on Penn Tree Bank
 Simply run python ContPTNCN/src/train_discrete_ptncn.py
+
 Tips while using this algorithm/model on your own datasets:
 1. Track your local losses, and accordingly adjust the hyper-parameters for the model.
 2. Play with non-zero, small values for the weight decay coefficients.
